@@ -37,7 +37,7 @@ function displayPics(){
   }
   // console.log(rando);
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the letiable declaration from `var to `let`.
-  // The console could not log rando because it was defined as let within a block of code in a function - making it a local variable, and we were trying to console log it as a global variable.
+  // The console could not log rando because it was defined as let within a block of code in a function.
   console.log(viewed);
 
   for (let i = 0; i < 3; i++){
