@@ -25,7 +25,11 @@ function logTarget() {
 
 // not delegated - event bound to all the 'li's that exist on page load
 // no selector specified in .on() method
+<<<<<<< HEAD
 $('#menu-main').on('click', 'li', logTarget)
+=======
+$('#menu-main li').on('click', logTarget)
+>>>>>>> c7ef0e026545a50e28f61c22c72e4da5a9a8459f
 
 // delegated - event is bound to parent
 // 'li' is specified in .on()
